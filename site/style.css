@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: greenyellow;
     text-align: center;
@@ -9,16 +13,13 @@ h1{
 h1 > div:hover{
     color:red;
     font-size: 48px;
-
-    
 }
 
 body{
-    background-image: url(https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/89722061_2368018566632833_6735766917912461312_o.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=UtyfcQfz8o8AX8LR6FO&_nc_ht=scontent.fdel1-1.fna&oh=a4da8ce4d81df19991c010441d4ab12c&oe=5F384A3D);
-    background-position: absolute;
+    background: url("https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/89722061_2368018566632833_6735766917912461312_o.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=UtyfcQfz8o8AX_iEJOo&_nc_ht=scontent.fdel1-1.fna&oh=16a10ff249a1824abe674ae76ae5917a&oe=5F384A3D") no-repeat center;
 }
 
 body section{
     color: blueviolet;
-    font-size: 140%;
+    font-size: 150%;
 }
