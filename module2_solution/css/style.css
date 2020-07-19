@@ -5,6 +5,12 @@
     font-family: Courier New, monospace;
 }
 
+body{
+    background: #CC95C0;
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); 
+}
+
 .row{
     width:100%;
 }
@@ -71,17 +77,23 @@ h1{
     overflow: hidden;
     padding: 50 20 20 20;
     font-family: 'Courier', monospace;
+    font-weight: bold;
    
 }
 
 .maintext#chickenContent{
-    color:red;
-    background-color: rgb(130, 206, 130);
+    color:rgb(55, 105, 100);
+    background-color: thistle;
 }
 
 .maintext#beefContent{
     color: purple;
     background-color: rgb(157, 233, 207);
+}
+
+.maintext#sushiContent{
+    color: yellow;
+    background-color: rgb(140, 145, 224);
 }
 
 @media (min-width: 992px) {
